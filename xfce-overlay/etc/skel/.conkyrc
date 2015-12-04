@@ -1,0 +1,108 @@
+background no
+font Cantarell:size=8
+xftfont Cantarell:size=10
+use_xft yes
+xftalpha 0.1
+update_interval 1.0
+total_run_times 0
+own_window yes
+own_window_type normal
+own_window_transparent no
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+own_window_argb_visual yes
+own_window_argb_value 125
+double_buffer yes
+draw_shades yes
+draw_outline no
+draw_borders no
+draw_graph_borders yes
+minimum_size 300 1080
+#maximum_width 206
+default_color ffffff
+default_shade_color 000000
+default_outline_color 000000
+alignment middle_right
+gap_x 6
+gap_y 0
+no_buffers yes
+cpu_avg_samples 2
+override_utf8_locale yes
+uppercase no # set to yes if you want all text to be in uppercase
+use_spacer no
+
+TEXT
+${font Cantarell:style=Bold:pixelsize=64}${alignc}${time %H:%M:%S}${font Cantarell:size=10}
+${font Cantarell:pixelsize=24}${alignc}${time %e %B %G}
+
+${color green}${font Cantarell:style=Bold:pixelsize=24}SYSTEM${font Cantarell:size=8}${hr 3 }
+Hostname: ${alignr}${nodename}
+Architecture: ${alignr}${machine}
+OS Version: ${alignr}${execi 30 cat /etc/issue | grep '\n' | awk '{print $1,$2}'}
+Kernel: ${alignr}${kernel}
+Uptime: ${alignr}${uptime}
+Processes: ${alignr}${processes} (${running_processes} running)
+${hr 3 }${color}
+
+${color orange}${font Cantarell:style=Bold:pixelsize=24}CPU & RAM${font Cantarell:size=8}${hr 3 }
+CPU:${goto 100}${cpu}%${alignr}${freq_g} GHz
+${cpubar 8}
+#${cpugraph cccccc ffffff}
+CPU 1:${goto 100}${cpu cpu1}%${alignr}${cpubar cpu1 8,100}
+CPU 2:${goto 100}${cpu cpu2}%${alignr}${cpubar cpu2 8,100}
+#CPU 3:${goto 100}${cpu cpu3}%${alignr}${cpubar cpu3 8,100}
+#CPU 4:${goto 100}${cpu cpu4}%${alignr}${cpubar cpu4 8,100}
+#CPU 5:${goto 100}${cpu cpu5}%${alignr}${cpubar cpu5 8,100}
+#CPU 6:${goto 100}${cpu cpu6}%${alignr}${cpubar cpu6 8,100}
+#CPU 7:${goto 100}${cpu cpu7}%${alignr}${cpubar cpu7 8,100}
+#CPU 8:${goto 100}${cpu cpu8}%${alignr}${cpubar cpu8 8,100}
+
+Ram Used: ${goto 100}${memperc}%${goto 150}${mem} / ${memmax}${alignr}${membar 8,100}
+
+Swap Used:${goto 100}${swapperc}%${goto 150}${swap} / ${swapmax}${alignr}${swapbar 8,100}
+${hr 3 }${color}
+
+${color blue}${font Cantarell:style=Bold:pixelsize=24}VIDEO${font Cantarell:size=8}${hr 3 }
+Edit .conkyrc to fit your video card information!
+#GPU: ${alignr} ${pre_exec nvidia-smi | grep "GeForce" | awk '{print $3,$4,$5}'}
+#Driver: ${alignr} ${pre_exec nvidia-smi -q | grep "Driver Version" | awk '{print $4}'}
+#GPU Memory Used: ${alignr}${execi 30 nvidia-settings -query UsedDedicatedGPUMemory | grep 'gpu:0' | awk '{print $4}' | cut -c1-3} / ${alignr}${execi 30 nvidia-settings -query TotalDedicatedGPUMemory | grep 'gpu:0' | awk '{print $4}' | cut -c1-4} MB
+Resolution: ${alignr} ${pre_exec xrandr | grep "current" | awk '{print $8$9$10}' | cut -c1-9}
+${hr 3 }${color}
+
+${color red}${font Cantarell:style=Bold:pixelsize=24}TEMPERATURES${font Cantarell:size=8}${hr 3 }
+Edit .conkyrc to fit your needs!
+#Physical CPU: ${alignr} ${execi 30 sensors | grep 'Physical id 0' | cut -c18-19}°C
+#CPU Core 1: ${alignr} ${execi 30 sensors | grep 'Core 0' | cut -c18-19}°C
+#CPU Core 2: ${alignr} ${execi 30 sensors | grep 'Core 1' | cut -c18-19}°C
+#CPU Core 3: ${alignr} ${execi 30 sensors | grep 'Core 2' | cut -c18-19}°C
+#CPU Core 4: ${alignr} ${execi 30 sensors | grep 'Core 3' | cut -c18-19}°C
+#GPU: ${alignr} ${execi 30 nvidia-settings -query GPUCoreTemp | grep 'gpu:0' | cut -c52-53}°C
+#OS Drive: ${alignr} ${execi 30 nc localhost 7634 | cut -c23-24}°C
+#Data Drive: ${alignr} ${execi 30 nc localhost 7634 | cut -c57-58}°C
+${hr 3 }${color}
+
+${color purple}${font Cantarell:style=Bold:pixelsize=24}FILESYSTEM${font Cantarell:size=8}${hr 3 }
+${alignc}Free Space:
+Root: ${goto 100}${fs_free_perc /}%${goto 150}${fs_free /} / ${fs_size /}${alignr}${fs_bar 8,100 /}
+Home: ${goto 100}${fs_free_perc /home}%${goto 150}${fs_free /home} / ${fs_size /home}${alignr}${fs_bar 8,100 /home}
+Disk IO:${goto 100}Root:${diskio sda}${alignr}Home:${diskio sdb}
+${hr 3 }${color}
+
+${color yellow}${font Cantarell:style=Bold:pixelsize=24}NETWORK${font Cantarell:size=8}${hr 3 }
+Edit .conkyrc to match your Wifi or ethernet cards!
+Up Speed: ${goto 100}${upspeed wlp0s29u1u4} ${alignr}${upspeedgraph wlp0s29u1u4 8,100}
+Down Speed: ${goto 100}${downspeed wlp0s29u1u4} ${alignr}${downspeedgraph wlp0s29u1u4 8,100}
+Upload Total: ${alignr}${totalup wlp0s29u1u4}
+Download Total: ${alignr}${totaldown wlp0s29u1u4}
+Signal: ${goto 100}${wireless_link_qual wlp0s29u1u4}% ${alignr}${wireless_link_bar 8,100 wlp0s29u1u4}
+Wi-Fi Speed: ${alignr}${wireless_bitrate wlp0s29u1u4}
+Wi-Fi IP: ${alignr}${addr wlp0s29u1u4}
+Wi-Fi ESSID: ${alignr}${wireless_essid wlp0s29u1u4}
+${hr 3 }${color}
+
+#Ethernet:
+#Up: ${goto 100}${upspeed eth0} ${alignr}${upspeedgraph eth0 8,100}
+#Down: ${goto 100}${downspeed eth0} ${alignr}${downspeedgraph eth0 8,100}
+#Upload: ${alignr}${totalup eth0}
+#Download: ${alignr}${totaldown eth0}
+#Ethernet IP: ${alignr}${addr eth0}

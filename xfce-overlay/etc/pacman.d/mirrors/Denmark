@@ -1,0 +1,2 @@
+[Denmark]
+Server = http://212.10.37.247/$branch/$repo/$arch

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=HexChat
+Comment=Chat with other people online
+Exec=hexchat %U
+Icon=hexchat
+Path=
+Terminal=false
+StartupNotify=true

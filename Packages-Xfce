@@ -1,0 +1,168 @@
+### Manjaro Packages
+
+## Minmal XFCE Desktop Packages
+gconf # fix qt-theme
+#gnome-keyring # fix wlan segfault
+gnome-vfs
+gvfs # to fix trash in thunar
+gvfs-mtp
+menulibre
+network-manager-applet
+xcursor-simpleandsoft
+xcursor-vanilla-dmz-aa
+xfce4-panel
+xfce4-session
+xfce4-terminal
+xfdesktop
+xfwm4
+xfce4-appfinder
+xfce4-settings
+xfce4-notifyd
+xfce4-screenshooter
+xfce4-taskmanager
+xfce4-battery-plugin
+xfce4-power-manager
+xfce4-whiskermenu-plugin
+xfce4-xkb-plugin
+wget
+thunar-media-tags-plugin
+ffmpegthumbnailer
+mlocate
+tumbler
+yaourt
+exfat-utils
+fuse-exfat
+
+## Manjaro Tools for creating ISO's
+manjaro-tools-iso
+manjaro-tools-pkg
+#manjaro-iso-profiles
+#manjaro-iso-profiles-community
+
+## Developement packages
+base-devel
+
+## Audio Packages
+manjaro-alsa
+manjaro-pulse
+pavucontrol
+pa-applet
+pulseaudio-ctl
+
+## Applications
+accountsservice
+gksu
+gst-libav
+gparted
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
+light-locker
+manjaro-settings-manager
+#manjaro-welcome # not yet ready
+mousepad
+pamac
+qpdfview
+open-fuse-iso
+hexchat
+catfish
+viewnior
+engrampa
+engrampa-thunar-plugin
+chromium
+geany
+filezilla
+conky
+easytag
+youtube-dl
+deluge
+baobab
+hddtemp
+gnu-netcat
+dropbox
+virtualbox
+KERNEL-virtualbox-host-modules
+#jre8-openjdk
+libreoffice-fresh
+mediainfo
+mumble
+pidgin
+lm_sensors
+mesa-demos
+openssh
+git
+thunderbird
+track-o-bot-git
+brasero
+galculator
+
+## Printing Support
+system-config-printer
+
+## Gaming
+steam-manjaro
+wine-staging
+
+## Audio and Video tools
+asunder
+handbrake
+soundconverter
+vorbis-tools
+openshot
+#simplescreenrecorder
+audacity
+audacious
+vlc
+libdvdcss
+
+## Network
+netctl
+networkmanager
+networkmanager-dispatcher-ntpd
+openresolv
+blueman
+KERNEL-broadcom-wl
+
+## Xorg Packages
+#inxi
+#libdnet
+#uriparser
+#xf86-input-acecad
+#xf86-input-aiptek
+#xf86-input-evdev
+#xf86-input-joystick
+#xf86-input-keyboard
+#xf86-input-mouse
+#xf86-input-synaptics
+#xf86-input-void
+#xf86-input-wacom
+#xinetd
+#xorg-server
+#xorg-server-utils
+#xorg-twm
+#xorg-utils
+#xorg-xinit
+
+## Artwork
+menda-circle-icon-theme
+menda-themes-dark
+manjaro-artwork
+xcursor-menda
+>i686 xfce-theme-greenbird
+wallpaper-strit
+
+## Fonts
+ttf-dejavu
+cantarell-fonts
+ttf-droid
+
+## Documentation
+manjaro-documentation
+
+## AUR Packages
+python2-pysqlite
+teamviewer
+griffith
+#magicassistant-gtk
+>x86_64 icaclient
+makemkv
+obs-studio
