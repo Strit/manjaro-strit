@@ -24,7 +24,7 @@ xfce4-battery-plugin
 xfce4-power-manager
 xfce4-whiskermenu-plugin
 xfce4-xkb-plugin
-wget
+#wget
 thunar-media-tags-plugin
 ffmpegthumbnailer
 mlocate
@@ -122,26 +122,6 @@ openresolv
 blueman
 KERNEL-broadcom-wl
 
-## Xorg Packages
-#inxi
-#libdnet
-#uriparser
-#xf86-input-acecad
-#xf86-input-aiptek
-#xf86-input-evdev
-#xf86-input-joystick
-#xf86-input-keyboard
-#xf86-input-mouse
-#xf86-input-synaptics
-#xf86-input-void
-#xf86-input-wacom
-#xinetd
-#xorg-server
-#xorg-server-utils
-#xorg-twm
-#xorg-utils
-#xorg-xinit
-
 ## Artwork
 menda-circle-icon-theme
 menda-themes-dark
@@ -149,6 +129,7 @@ manjaro-artwork
 xcursor-menda
 >i686 xfce-theme-greenbird
 wallpaper-strit
+hearthstone-wallpapers
 
 ## Fonts
 ttf-dejavu
