@@ -96,7 +96,8 @@ brasero
 galculator
 
 ## Printing Support
-system-config-printer
+#system-config-printer
+manjaro-printer
 
 ## Gaming
 steam-manjaro
