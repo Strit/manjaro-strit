@@ -2,7 +2,6 @@
 
 ## Minmal XFCE Desktop Packages
 gconf # fix qt-theme
-#gnome-keyring # fix wlan segfault
 gnome-vfs
 gvfs # to fix trash in thunar
 gvfs-mtp
@@ -24,7 +23,6 @@ xfce4-battery-plugin
 xfce4-power-manager
 xfce4-whiskermenu-plugin
 xfce4-xkb-plugin
-#wget
 thunar-media-tags-plugin
 ffmpegthumbnailer
 mlocate
@@ -36,8 +34,6 @@ fuse-exfat
 ## Manjaro Tools for creating ISO's
 manjaro-tools-iso
 manjaro-tools-pkg
-#manjaro-iso-profiles
-#manjaro-iso-profiles-community
 
 ## Developement packages
 base-devel
@@ -58,7 +54,6 @@ lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
 light-locker
 manjaro-settings-manager
-#manjaro-welcome # not yet ready
 mousepad
 pamac
 qpdfview
@@ -81,7 +76,6 @@ gnu-netcat
 dropbox
 virtualbox
 KERNEL-virtualbox-host-modules
-#jre8-openjdk
 libreoffice-fresh
 mediainfo
 mumble
@@ -96,7 +90,6 @@ brasero
 galculator
 
 ## Printing Support
-#system-config-printer
 manjaro-printer
 
 ## Gaming
@@ -109,7 +102,6 @@ handbrake
 soundconverter
 vorbis-tools
 openshot
-#simplescreenrecorder
 audacity
 audacious
 vlc
@@ -128,7 +120,6 @@ menda-circle-icon-theme
 menda-themes-dark
 manjaro-artwork
 xcursor-menda
->i686 xfce-theme-greenbird
 wallpaper-strit
 hearthstone-wallpapers
 
