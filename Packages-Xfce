@@ -7,8 +7,6 @@ gvfs # to fix trash in thunar
 gvfs-mtp
 menulibre
 network-manager-applet
-xcursor-simpleandsoft
-xcursor-vanilla-dmz-aa
 xfce4-panel
 xfce4-session
 xfce4-terminal
@@ -121,12 +119,9 @@ menda-themes-dark
 manjaro-artwork
 xcursor-menda
 wallpaper-strit
-hearthstone-wallpapers
 
 ## Fonts
-ttf-dejavu
 cantarell-fonts
-ttf-droid
 
 ## Documentation
 manjaro-documentation
@@ -135,7 +130,6 @@ manjaro-documentation
 python2-pysqlite
 teamviewer
 griffith
-#magicassistant-gtk
 >x86_64 icaclient
 makemkv
 obs-studio
