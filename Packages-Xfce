@@ -26,7 +26,6 @@ ffmpegthumbnailer
 mlocate
 tumbler
 yaourt
-exfat-utils
 fuse-exfat
 
 ## Manjaro Tools for creating ISO's
@@ -60,6 +59,7 @@ hexchat
 catfish
 viewnior
 engrampa
+thunar-archive-plugin
 engrampa-thunar-plugin
 chromium
 geany
