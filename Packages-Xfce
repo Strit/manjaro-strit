@@ -34,7 +34,7 @@ manjaro-tools-iso
 manjaro-tools-pkg
 
 ## Developement packages
-base-devel
+#base-devel
 
 ## Audio Packages
 manjaro-alsa
@@ -82,7 +82,8 @@ lm_sensors
 mesa-demos
 openssh
 git
-thunderbird
+evolution
+#thunderbird
 track-o-bot-git
 brasero
 galculator
