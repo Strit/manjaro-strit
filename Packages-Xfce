@@ -27,7 +27,6 @@ mlocate
 tumbler
 yaourt
 fuse-exfat
-manjaro-danish-mirror
 
 ## Manjaro Tools for creating ISO's
 manjaro-tools-iso
@@ -88,7 +87,7 @@ evolution
 track-o-bot-git
 brasero
 galculator
-
+manjaro-danish-mirror
 
 ## Printing Support
 manjaro-printer
