@@ -115,8 +115,10 @@ blueman
 KERNEL-broadcom-wl
 
 ## Artwork
-menda-circle-icon-theme
-menda-themes-dark
+#menda-circle-icon-theme
+#menda-themes-dark
+vertex-themes
+maia-xfce-icon-theme
 manjaro-artwork
 xcursor-menda
 wallpaper-strit
