@@ -3,10 +3,12 @@
 ## Minmal XFCE Desktop Packages
 gconf # fix qt-theme
 gnome-vfs
+gnome-keyring #hopefully fix password prompt in networkmanager
 gvfs # to fix trash in thunar
 gvfs-mtp
 menulibre
 network-manager-applet
+mugshot
 xfce4-panel
 xfce4-session
 xfce4-terminal
@@ -27,6 +29,8 @@ mlocate
 tumbler
 yaourt
 fuse-exfat
+manjaro-strit-keyring
+KERNEL-virtualbox-guest-modules
 
 ## Manjaro Tools for creating ISO's
 manjaro-tools-iso
@@ -76,7 +80,7 @@ virtualbox
 KERNEL-virtualbox-host-modules
 libreoffice-fresh
 mediainfo
-mumble
+mumble-git
 pidgin
 lm_sensors
 mesa-demos
@@ -87,6 +91,8 @@ track-o-bot-git
 brasero
 galculator
 manjaro-danish-mirror
+obs-studio
+owncloud-client
 
 ## Printing Support
 manjaro-printer
@@ -103,7 +109,7 @@ vorbis-tools
 openshot
 audacity
 audacious
-vlc
+vlc-nightly
 libdvdcss
 
 ## Network
@@ -115,13 +121,13 @@ blueman
 KERNEL-broadcom-wl
 
 ## Artwork
-#menda-circle-icon-theme
-#menda-themes-dark
-vertex-themes
+vertex-maia-themes
 maia-xfce-icon-theme
 manjaro-artwork
-xcursor-menda
+xcursor-maia
 wallpaper-strit
+plymouth-theme-manjaro-elegant
+
 
 ## Fonts
 cantarell-fonts
@@ -135,4 +141,3 @@ teamviewer
 griffith
 >x86_64 icaclient
 makemkv
-obs-studio
