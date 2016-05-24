@@ -92,7 +92,6 @@ brasero
 galculator
 manjaro-danish-mirror
 obs-studio
-owncloud-client
 
 ## Printing Support
 manjaro-printer
@@ -116,17 +115,18 @@ libdvdcss
 netctl
 networkmanager
 networkmanager-dispatcher-ntpd
+networkmanager-openvpn
 openresolv
 blueman
 KERNEL-broadcom-wl
 
 ## Artwork
 vertex-maia-themes
-maia-xfce-icon-theme
+vertex-maia-icon-theme
 manjaro-artwork
 xcursor-maia
 wallpaper-strit
-plymouth-theme-manjaro-elegant
+#plymouth-theme-manjaro-elegant
 
 
 ## Fonts
@@ -138,6 +138,6 @@ manjaro-documentation
 ## AUR Packages
 python2-pysqlite
 teamviewer
-griffith
+griffith-pdffix
 >x86_64 icaclient
 makemkv
