@@ -3,7 +3,7 @@
 ## Minmal XFCE Desktop Packages
 gconf # fix qt-theme
 gnome-vfs
-gnome-keyring #hopefully fix password prompt in networkmanager
+gnome-keyring #fix nm-applet password prompt
 gvfs # to fix trash in thunar
 gvfs-mtp
 menulibre
@@ -91,7 +91,6 @@ track-o-bot-git
 brasero
 galculator
 manjaro-danish-mirror
-obs-studio
 
 ## Printing Support
 manjaro-printer
@@ -105,11 +104,12 @@ asunder
 handbrake
 soundconverter
 vorbis-tools
-openshot
+kdenlive
 audacity
 audacious
-vlc-nightly
+smplayer
 libdvdcss
+obs-studio
 
 ## Network
 netctl
@@ -126,7 +126,6 @@ vertex-maia-icon-theme
 manjaro-artwork
 xcursor-maia
 wallpaper-strit
-#plymouth-theme-manjaro-elegant
 
 
 ## Fonts
