@@ -12,4 +12,4 @@ This is the profile used to create the Manjaro Strit ISO's.
 
 4. Both 32-bit and 64-bit versions
 
-5. Lots of pre-installed [software](https://www.strits.dk/?page_id=311)
+5. Minimal ISO's
