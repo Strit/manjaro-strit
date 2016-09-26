@@ -6,7 +6,7 @@ manjaro-live-skel		# live skel
 
 calamares			# new GUI installer of manjaro
 #calamares-dev			# new GUI installer of manjaro - kpmcore
-thus				# For encryption installs
+#thus				# for encryption installs
 #thus-dev
-#gparted
+gparted
 #mhwd-chroot

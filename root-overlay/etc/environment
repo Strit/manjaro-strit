@@ -1,0 +1,2 @@
+BROWSER=/usr/bin/xdg-open
+QT_QPA_PLATFORMTHEME=qt5ct

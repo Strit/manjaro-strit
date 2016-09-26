@@ -3,7 +3,7 @@
 ## Minmal XFCE Desktop Packages
 gconf # fix qt-theme
 gnome-vfs
-gnome-keyring #fix nm-applet password prompt
+gnome-keyring
 gvfs # to fix trash in thunar
 gvfs-mtp
 menulibre
@@ -30,14 +30,13 @@ tumbler
 yaourt
 fuse-exfat
 manjaro-strit-keyring
-KERNEL-virtualbox-guest-modules
+gnome-logs
+qt5ct
+qt5-styleplugins
 
 ## Manjaro Tools for creating ISO's
-manjaro-tools-iso
-manjaro-tools-pkg
 
 ## Developement packages
-base-devel
 
 ## Audio Packages
 manjaro-alsa
@@ -45,12 +44,12 @@ manjaro-pulse
 pavucontrol
 pa-applet
 pulseaudio-ctl
+pulseaudio-bluetooth
 
 ## Applications
 accountsservice
 gksu
 gst-libav
-gparted
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
 light-locker
@@ -65,51 +64,23 @@ viewnior
 engrampa
 thunar-archive-plugin
 engrampa-thunar-plugin
-chromium
-geany
-filezilla
-conky
-easytag
-youtube-dl
-deluge
-baobab
 hddtemp
 gnu-netcat
-dropbox
-virtualbox
-KERNEL-virtualbox-host-modules
-libreoffice-fresh
 mediainfo
-mumble-git
-pidgin
 lm_sensors
 mesa-demos
 openssh
 git
-evolution
-track-o-bot-git
-brasero
-galculator
 manjaro-danish-mirror
 
 ## Printing Support
-manjaro-printer
 
 ## Gaming
-steam-manjaro
-wine-staging
 
 ## Audio and Video tools
-asunder
-handbrake
-soundconverter
 vorbis-tools
-kdenlive
-audacity
-audacious
-smplayer
+gstreamer0.10-plugins
 libdvdcss
-obs-studio
 
 ## Network
 netctl
@@ -127,16 +98,9 @@ manjaro-artwork
 xcursor-maia
 wallpaper-strit
 
-
 ## Fonts
 cantarell-fonts
 
 ## Documentation
-manjaro-documentation
 
 ## AUR Packages
-python2-pysqlite
-teamviewer
-griffith-pdffix
->x86_64 icaclient
-makemkv
