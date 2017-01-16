@@ -9,4 +9,5 @@ calamares			# new GUI installer of manjaro
 #thus				# for encryption installs
 #thus-dev
 gparted
-#mhwd-chroot
+mhwd-chroot
+clonezilla
