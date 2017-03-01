@@ -15,3 +15,5 @@ This is the profile used to create the Manjaro Strit ISO.
 5. Minimal ISO
 
 6. Meta package to install all of the Manjaro Strit KDE software
+
+7. Website: https://www.strits.dk
