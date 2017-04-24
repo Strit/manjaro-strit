@@ -6,7 +6,8 @@
 
 
 ## Libraries for Sound/Audio/Video
->multilib manjaro-alsa
+manjaro-alsa
+ffmpegthumbs
 
 ## Fonts
 noto-fonts  # default font
@@ -22,14 +23,13 @@ sddm-kcm
 ## Xorg Server and Graphics
 xorg-server
 xorg-server-utils
-#xorg-twm
 xorg-utils
 xorg-xinit
-#mesa-demos
-#>multilib lib32-mesa-demos
 
 ## System Packages
 sshfs
+xdg-su
+xdg-user-dirs
 
 ## Plasma5
 bluedevil
@@ -56,6 +56,7 @@ systemsettings
 user-manager
 ksystemlog
 systemd-kcm
+kaccounts-providers
 
 ## Themes
 plasma5-themes-breath
@@ -67,35 +68,33 @@ breeze-gtk
 ## KDE Applications
 ark
 dolphin
+dolphin-plugins
 konsole
 kate
 kdeconnect
 spectacle
+partitionmanager
+filelight
+okular
 
 ## Applications
 manjaro-settings-manager-kcm
 manjaro-settings-manager-knotifier
-partitionmanager
-qpdfview
 mediainfo
 git
 libdvdcss
 vorbis-tools
-filelight
-#chromium
+chromium
 inxi
 gwenview
 
 ## AUR Support
 base-devel
-yaourt
-
-## Settings package
-#manjaro-kde-minimal-settings
 
 ## Manjaro Strit Applications
 manjaro-strit-keyring
-manjaro-danish-mirror
 wallpaper-strit
+
+## Settings package
 manjaro-strit-kde-settings
 
