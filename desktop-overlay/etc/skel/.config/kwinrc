@@ -1,0 +1,11 @@
+[Compositing]
+Backend=XRender
+OpenGLIsUnsafe=false
+
+[org.kde.kdecoration2]
+BorderSize=Normal
+ButtonsOnLeft=MS
+ButtonsOnRight=HIAX
+CloseOnDoubleClickOnMenu=false
+library=org.kde.kwin.aurorae
+theme=__aurorae__svg__ghost-deco-2_2

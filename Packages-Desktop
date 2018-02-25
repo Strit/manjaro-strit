@@ -11,10 +11,15 @@ ffmpegthumbs
 
 ## Fonts
 noto-fonts  # default font
+noto-fonts-emoji #emoji support
+ttf-bitstream-vera
 
 ## Package management
+#octopi
+#octopi-notifier-frameworks
 pamac
 pamac-tray-appindicator
+manjaro-architect-launcher
 
 ## Display Manager
 sddm
@@ -22,14 +27,22 @@ sddm-kcm
 
 ## Xorg Server and Graphics
 xorg-server
-xorg-server-utils
-xorg-utils
 xorg-xinit
+xorg-xdpyinfo
+xorg-xrandr
+mesa
+mesa-demos
+lib32-mesa-demos
 
 ## System Packages
 sshfs
 xdg-su
 xdg-user-dirs
+mhwd-chroot
+wget
+ncdu
+snapd
+bup
 
 ## Plasma5
 bluedevil
@@ -43,14 +56,12 @@ kscreenlocker
 ksysguard
 kwallet-pam
 kwayland-integration
-plasma-wayland-session
 kwin
-kwrited
-milou
 plasma-desktop
 plasma-nm
 plasma-pa
 plasma-workspace
+plasma-wayland-session
 powerdevil
 systemsettings
 user-manager
@@ -59,11 +70,14 @@ systemd-kcm
 kaccounts-providers
 
 ## Themes
-plasma5-themes-breath
-sddm-breath-theme
+breath-icon-theme
+sddm-ghost-theme
+plasma5-themes-ghost
 
 ## GTK Themes
+gtk3-classic
 breeze-gtk
+gtk-themes-ghost
 
 ## KDE Applications
 ark
@@ -76,25 +90,55 @@ spectacle
 partitionmanager
 filelight
 okular
+gwenview
+kdenlive
+konversation
+#>extra kmail
+#>extra korganizer
 
 ## Applications
 manjaro-settings-manager-kcm
 manjaro-settings-manager-knotifier
+>extra manjaro-hello
+>extra manjaro-documentation-en
 mediainfo
 git
 libdvdcss
 vorbis-tools
-chromium
 inxi
-gwenview
+firefox
+thunderbird
+fancontrol-kcm
+teamviewer
+#wire-desktop
+cantata-git
+mpd
+#discord
+qbittorrent
+smplayer
+nextcloud-client
+
+## Office suite
+libreoffice-fresh
+
+## Security apps
+#timeshift
+kup
+gufw
+#clamtk #Qt version?
+clonezilla
+kleopatra
+#wireshark-qt
+plasma-vault
 
 ## AUR Support
 base-devel
 
 ## Manjaro Strit Applications
 manjaro-strit-keyring
+manjaro-danish-mirror
 wallpaper-strit
 
 ## Settings package
-manjaro-strit-kde-settings
+#manjaro-strit-kde-settings
 

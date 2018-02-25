@@ -1,0 +1,13 @@
+[$Version]
+update_info=kscreenlocker.upd:0.1-autolock
+
+[Daemon]
+Autolock=false
+Timeout=0
+
+[Greeter]
+Theme=org.kde.ghost.desktop
+WallpaperPlugin=org.kde.image
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/plasma/look-and-feel/org.kde.ghost.desktop/contents/components/artwork/background.png

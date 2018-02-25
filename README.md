@@ -4,16 +4,10 @@ This is the profile used to create the Manjaro Strit ISO.
 
 ## Some highlights:
 
-1. Kernel 4.9 (LTS)
+1. Kernel 4.14 (LTS)
 
-2. Breath themes
+2. Ghost themes with Breath icons
 
-3. Using kde-minimal as a base
+3. Only 64-bit version!
 
-4. Only 64-bit version!
-
-5. Minimal ISO
-
-6. Meta package to install all of the Manjaro Strit KDE software
-
-7. Website: https://www.strits.dk
+4. Website: https://www.strits.dk
